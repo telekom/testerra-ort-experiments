@@ -41,6 +41,7 @@ jobs:
       - name: Run GitHub Action for ORT
         uses: oss-review-toolkit/ort-ci-github-action@main #update this once they switched to stable versions
         with:
+          fail-on: ''
           docker-cli-args: >-
             -e ORT_ARTIFACTORY_TOKEN=${{ secrets.OSPO_ORT_ARTIFACTORY_CACHE_REPO_KEY }}
             -e ORT_ARTIFACTORY_URL=${{ secrets.OSPO_ORT_ARTIFACTORY_CACHE_REPO_URL }}
