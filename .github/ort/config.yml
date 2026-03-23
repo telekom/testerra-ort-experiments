@@ -5,6 +5,10 @@
 ort:
   # Force overwriting of existing reports
   forceOverwrite: true
+  analyzer:
+    allowDynamicVersions: true
+    skipExcluded: true
+    skipExcluded: true
   scanner:
     storages:
       # Read/write results to actions cache
