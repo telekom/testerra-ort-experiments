@@ -5,6 +5,8 @@
 ort:
   # Force overwriting of existing reports
   forceOverwrite: true
+  severeIssueThreshold: ERROR
+  severeRuleViolationThreshold: ERROR
   analyzer:
     allowDynamicVersions: true
     skipExcluded: true
